@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="280dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    android:layout_gravity="center"
+    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="@color/ligt_white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/jobtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Mobile App Developer Needed For small tasks"
+                    android:textColor="@color/grey"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/fixidprice"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="@dimen/_60sdp"
+                    android:text="Fixed Price"
+                    android:textColor="@color/light_grey"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/salary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="@dimen/_100sdp"
+                    android:text="$10"
+                    android:textColor="@color/grey"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/budgetlabel"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="@dimen/_120sdp"
+                    android:text="Budget"
+                    android:textColor="@color/light_grey" />
+
+                <TextView
+                    android:id="@+id/explevel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginTop="@dimen/_100sdp"
+                    android:text="Entry Level"
+                    android:textColor="@color/grey"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/explevellabel"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginTop="@dimen/_120sdp"
+                    android:text="Experience Level"
+                    android:textColor="@color/light_grey" />
+
+                <TextView
+                    android:id="@+id/desc"
+                    android:layout_width="360dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="@dimen/_170sdp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Android software development is the process by which applications are created for devices running the Android operating system"
+                    android:textColor="@color/grey"
+                    android:textSize="15dp" />
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

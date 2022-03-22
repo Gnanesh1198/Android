@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "121319549894",
+    "project_id": "annular-technologies",
+    "storage_bucket": "annular-technologies.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121319549894:android:bdd3e8fabeeea16fbbe0c7",
+        "android_client_info": {
+          "package_name": "com.annular.developer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121319549894-0aetuej2vt1gidsectpn9ggoun0m0baa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAML3D4uZ6Z3PyAhxGOZHsgh46bAnfmMdQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121319549894-0aetuej2vt1gidsectpn9ggoun0m0baa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
