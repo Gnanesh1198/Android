@@ -64,17 +64,12 @@ public class jobsFragment extends Fragment {
         // Inflate the layout for this fragment
         view = inflater.inflate(R.layout.fragment_jobs, container, false);
 
-        recyclerView = recyclerView.findViewById(R.id.jobs_recycler);
+        recyclerView = view.findViewById(R.id.jobs_recycler);
         adapter = new JobsAdapter(getContext(),jobsList);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         return view;
-//        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getContext());
-//        recyclerView.setLayoutManager(linearLayoutManager);
-//        adapter = new JobsAdapter(jobsList);
-//        recyclerView.setAdapter(adapter);
-//
-//        initData();
+
     }
 
     @Override
@@ -107,28 +102,7 @@ public class jobsFragment extends Fragment {
     }
 
 
-//    private void initRecyclerView() {
-//
-//
-//        recyclerView = recyclerView.findViewById(R.id.recyleview);
-//        linearLayoutManager = new LinearLayoutManager(this.getContext());
-//        linearLayoutManager.setOrientation(RecyclerView.VERTICAL);
-//        recyclerView.setLayoutManager(linearLayoutManager);
-//        adapter =  new JobsAdapter(jobsList, getContext());
-//        recyclerView.setAdapter(adapter);
-//         adapter.notifyDataSetChanged();
-//
-//
-//
-//
-//    }
 
-//    private void setupData(List<JobsModel> jobsList) {
-//
-//        adapter=new JobsAdapter(jobsList, getContext());
-//        recyclerView.setAdapter(adapter);
-//
-//    }
 
 
 }

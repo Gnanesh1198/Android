@@ -49,10 +49,8 @@ public class RecruiterHome extends Fragment {
 
         view = inflater.inflate(R.layout.fragment_recruiter_home, container, false);
 
+        recyclerView = view.findViewById(R.id.recruiter_home_recycler);
 
-
-
-//        data();
         recruiterHomeAdapter = new RecruiterHomeAdapter(getContext(), recruiterHomeModels);
         recyclerView.setAdapter(recruiterHomeAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
@@ -65,17 +63,6 @@ public class RecruiterHome extends Fragment {
 
         data();
     }
-
-//    private void initRecyclerView(View view){
-//
-//
-//
-//        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
-//        recyclerView.setLayoutManager(linearLayoutManager);
-//        recruiterHomeAdapter = new RecruiterHomeAdapter(this, recruiterHomeModels);
-//        recyclerView.setAdapter(recruiterHomeAdapter);
-//
-//    }
 
 
 //    @Override
@@ -104,7 +91,7 @@ public class RecruiterHome extends Fragment {
 //    }
 
     private void data(){
-//        recruiterHomeModels = new ArrayList<>();
+        recruiterHomeModels = new ArrayList<>();
         recruiterHomeModels.add(new RecruiterHomeModel("gnaneshwaran", "java, spring Boot", "1"));
         recruiterHomeModels.add(new RecruiterHomeModel("ganesh", "android Development", "2"));
         recruiterHomeModels.add(new RecruiterHomeModel("madhan", "react, Angular", "5"));
