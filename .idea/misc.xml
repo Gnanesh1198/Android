@@ -13,8 +13,8 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/developer/app/src/main/res/drawable/round_corner.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/User/AndroidStudioProjects/developer/app/src/main/res/layout/activity_create_profile.xml" value="0.25" />
         <entry key="..\:/Users/User/AndroidStudioProjects/developer/app/src/main/res/layout/activity_developer_connect.xml" value="0.2" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/developer/app/src/main/res/layout/activity_developer_login.xml" value="0.2" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/developer/app/src/main/res/layout/activity_developer_profile_create.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/developer/app/src/main/res/layout/activity_developer_login.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/developer/app/src/main/res/layout/activity_developer_profile_create.xml" value="0.22" />
         <entry key="..\:/Users/User/AndroidStudioProjects/developer/app/src/main/res/layout/activity_home.xml" value="0.22" />
         <entry key="..\:/Users/User/AndroidStudioProjects/developer/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/User/AndroidStudioProjects/developer/app/src/main/res/layout/activity_recruiter_login.xml" value="0.22" />
@@ -22,16 +22,18 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/developer/app/src/main/res/layout/activity_recruiter_sign_up.xml" value="0.2" />
         <entry key="..\:/Users/User/AndroidStudioProjects/developer/app/src/main/res/layout/fragment_blogs.xml" value="0.1634963768115942" />
         <entry key="..\:/Users/User/AndroidStudioProjects/developer/app/src/main/res/layout/fragment_home.xml" value="0.1634963768115942" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/developer/app/src/main/res/layout/fragment_jobs.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/developer/app/src/main/res/layout/fragment_jobs.xml" value="0.25" />
         <entry key="..\:/Users/User/AndroidStudioProjects/developer/app/src/main/res/layout/fragment_post.xml" value="0.1634963768115942" />
         <entry key="..\:/Users/User/AndroidStudioProjects/developer/app/src/main/res/layout/fragment_recruiter_bidding.xml" value="0.19021739130434784" />
         <entry key="..\:/Users/User/AndroidStudioProjects/developer/app/src/main/res/layout/fragment_recruiter_home.xml" value="0.1634963768115942" />
         <entry key="..\:/Users/User/AndroidStudioProjects/developer/app/src/main/res/layout/fragment_recruiter_profile.xml" value="0.19021739130434784" />
         <entry key="..\:/Users/User/AndroidStudioProjects/developer/app/src/main/res/layout/fragment_recruiter_setting.xml" value="0.19021739130434784" />
         <entry key="..\:/Users/User/AndroidStudioProjects/developer/app/src/main/res/layout/fragment_setting.xml" value="0.1634963768115942" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/developer/app/src/main/res/layout/fragment_skill_test.xml" value="0.2" />
         <entry key="..\:/Users/User/AndroidStudioProjects/developer/app/src/main/res/layout/jobitem.xml" value="0.25" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/developer/app/src/main/res/layout/recruiter_home_content.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/developer/app/src/main/res/layout/recruiter_home_content.xml" value="0.22" />
         <entry key="..\:/Users/User/AndroidStudioProjects/developer/app/src/main/res/layout/recruiter_login.xml" value="0.14855072463768115" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/developer/app/src/main/res/layout/skill_test_recycler_content.xml" value="0.17889492753623187" />
         <entry key="..\:/Users/User/AndroidStudioProjects/developer/app/src/main/res/menu/item_menu.xml" value="0.1921875" />
         <entry key="..\:/Users/User/AndroidStudioProjects/developer/app/src/main/res/menu/recruiter_menu.xml" value="0.1921875" />
       </map>

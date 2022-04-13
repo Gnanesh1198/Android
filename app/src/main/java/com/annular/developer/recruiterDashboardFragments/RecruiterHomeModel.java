@@ -1,41 +1,49 @@
 package com.annular.developer.recruiterDashboardFragments;
 
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
 public class RecruiterHomeModel {
 
-    public String dev_username;
-    public String dev_skills;
-    public String exp;
+    @SerializedName("username")
+    public String username;
+
+    @SerializedName("skills")
+    public String skills;
+
+    @SerializedName("experience")
+    public String experience;
 
     public RecruiterHomeModel() {
     }
 
-    public RecruiterHomeModel(String dev_username, String dev_skills, String exp) {
-        this.dev_username = dev_username;
-        this.dev_skills = dev_skills;
-        this.exp = exp;
+    public RecruiterHomeModel(String username, String skills, String experience) {
+        this.username = username;
+        this.skills = skills;
+        this.experience = experience;
     }
 
-    public String getDev_username() {
-        return dev_username;
+    public String getUsername() {
+        return username;
     }
 
-    public void setDev_username(String dev_username) {
-        this.dev_username = dev_username;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
-    public String getDev_skills() {
-        return dev_skills;
+    public String getSkills() {
+        return skills;
     }
 
-    public void setDev_skills(String dev_skills) {
-        this.dev_skills = dev_skills;
+    public void setSkills(String skills) {
+        this.skills = skills;
     }
 
-    public String getExp() {
-        return exp;
+    public String getExperience() {
+        return experience;
     }
 
-    public void setExp(String exp) {
-        this.exp = exp;
+    public void setExperience(String experience) {
+        this.experience = experience;
     }
 }

@@ -1,9 +1,9 @@
 package com.annular.developer;
 
+import com.annular.developer.dashboardFragments.JobsModel;
+import com.annular.developer.dashboardFragments.SkillTestModel;
 import com.annular.developer.recruiterDashboardFragments.RecruiterHomeModel;
-import com.annular.developer.recruiterDashboardFragments.RecruiterModel;
 import com.annular.developer.recruiterDashboardFragments.RecruiterResponse;
-import com.annular.developer.recruiterDto.RecruiterLoginReq;
 import com.annular.developer.recruiterDto.RecruiterLoginRes;
 import com.annular.developer.recruiterDto.RecruiterReqDto;
 import com.annular.developer.recruiterDto.RecruiterRes;
@@ -28,5 +28,11 @@ public interface UserService {
     Call<RecruiterLoginRes> recruiterLogin(@Query("EmailId") String email_id, @Query("Password") String password);
 
     @GET("devconnect/CreateProfile/devs")
-    Call<RecruiterResponse> getRecruiter();
+    Call<List<RecruiterHomeModel>> getRecruiter();
+
+    @GET("devconnect/jobs/allJobs")
+    Call<List<JobsModel>> getAllJobs();
+
+    @GET("skillTest/getAllLanguages")
+    Call<List<SkillTestModel>> getLanguages();
 }

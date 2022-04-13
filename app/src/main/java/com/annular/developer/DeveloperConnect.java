@@ -18,8 +18,6 @@ public class DeveloperConnect extends AppCompatActivity {
 
     FirebaseAuth mAuth;
 
-//    FirebaseUser currentUser = mAuth.getCurrentUser();
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +25,12 @@ public class DeveloperConnect extends AppCompatActivity {
 
         developer = findViewById(R.id.button);
         recruiter = findViewById(R.id.button2);
+
+//        FirebaseUser user = mAuth.getCurrentUser();
+//        if(user != null){
+//            Intent intent = new Intent(DeveloperConnect.this,Home.class);
+//            startActivity(intent);
+//        }
 
 
 
@@ -44,7 +48,7 @@ public class DeveloperConnect extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Toast.makeText(DeveloperConnect.this, " ", Toast.LENGTH_SHORT).show();
+                Toast.makeText(DeveloperConnect.this, "Login to your account or register", Toast.LENGTH_SHORT).show();
 
                 Intent intent = new Intent(DeveloperConnect.this, RecruiterLogin.class);
                 startActivity(intent);

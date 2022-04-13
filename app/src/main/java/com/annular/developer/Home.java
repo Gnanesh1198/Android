@@ -3,23 +3,16 @@ package com.annular.developer;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.widget.Adapter;
 import android.widget.Button;
 
-import com.annular.developer.dashboardFragments.JobsAdapter;
-import com.annular.developer.dashboardFragments.JobsModel;
-import com.annular.developer.dashboardFragments.PostFragment;
+import com.annular.developer.dashboardFragments.SkillTest;
 import com.annular.developer.dashboardFragments.blogsFragment;
 import com.annular.developer.dashboardFragments.jobsFragment;
 import com.annular.developer.dashboardFragments.settingFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-
-import java.util.List;
 
 public class Home extends AppCompatActivity {
 
@@ -54,7 +47,7 @@ public class Home extends AppCompatActivity {
                         fragment = new blogsFragment();
                         break;
                     case  R.id.nav_post:
-                        fragment = new PostFragment();
+                        fragment = new SkillTest();
                         break;
                     case  R.id.nav_settings:
                         fragment = new settingFragment();

@@ -8,10 +8,6 @@ import androidx.fragment.app.FragmentTransaction;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-import com.annular.developer.dashboardFragments.PostFragment;
-import com.annular.developer.dashboardFragments.blogsFragment;
-import com.annular.developer.dashboardFragments.jobsFragment;
-import com.annular.developer.dashboardFragments.settingFragment;
 import com.annular.developer.recruiterDashboardFragments.RecruiterBidding;
 import com.annular.developer.recruiterDashboardFragments.RecruiterHome;
 import com.annular.developer.recruiterDashboardFragments.RecruiterProfile;

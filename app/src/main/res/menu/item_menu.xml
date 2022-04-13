@@ -11,7 +11,7 @@
         android:icon="@drawable/ic_blogs"/>
 
     <item android:id="@+id/nav_post"
-        android:title="Post"
+        android:title="Skill Test"
         android:icon="@drawable/ic_baseline_post_add_24"/>
 
     <item android:id="@+id/nav_settings"

@@ -62,7 +62,7 @@ public class DeveloperLogin extends AppCompatActivity {
 //
 //        FirebaseUser currentUser = mAuth.getCurrentUser();
 //        if(currentUser != null){
-//            Intent intent = new Intent(getApplicationContext(),Profile.class);
+//            Intent intent = new Intent(DeveloperLogin.this,Home.class);
 //            startActivity(intent);
 //        }
 //

@@ -5,18 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".dashboardFragments.jobsFragment"
+    tools:context=".dashboardFragments.SkillTest"
     android:orientation="horizontal">
 
     <!-- TODO: Update blank fragment layout -->
 
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/skill_test"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:text="Jobs"
+        android:text="Skill Test"
         android:textColor="@color/black"
         android:textSize="28dp"
         android:textStyle="bold"
@@ -28,7 +28,7 @@
         app:layout_constraintVertical_bias="0.034" />
 
     <SearchView
-        android:id="@+id/search"
+        android:id="@+id/skill_test_search"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -43,7 +43,7 @@
     </SearchView>
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/skill_test_option"
         android:layout_width="55dp"
         android:layout_height="30dp"
         android:src="@drawable/icons8_menu_vertical_90"
@@ -55,7 +55,7 @@
         app:layout_constraintVertical_bias="0.034" />
 
     <View
-        android:id="@+id/view2"
+        android:id="@+id/skill_test_div"
         android:layout_width="match_parent"
         android:layout_height="2dp"
         android:background="@color/grey2"
@@ -67,7 +67,7 @@
         app:layout_constraintVertical_bias="0.179" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/skill_test_imageView"
         android:layout_width="63dp"
         android:layout_height="63dp"
         android:src="@drawable/annulartechnologies"
@@ -88,10 +88,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view2">
+        app:layout_constraintTop_toBottomOf="@+id/skill_test_div">
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/jobs_recycler"
+            android:id="@+id/skill_test_recycler"
             android:layout_width="match_parent"
             android:layout_height="585dp"
             android:layout_marginBottom="46dp"

@@ -3,6 +3,7 @@ package com.annular.developer;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -19,6 +20,8 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class RecruiterSignUp extends AppCompatActivity {
+
+    public static String PREFER_NAME1="check";
 
     TextView clickHere;
     Button signup;
@@ -49,6 +52,12 @@ public class RecruiterSignUp extends AppCompatActivity {
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                SharedPreferences sharedPreferences = getSharedPreferences(RecruiterSignUp.PREFER_NAME1,0);
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+                editor.putBoolean("hasLoggedIn1",true);
+                editor.commit();
+
                 if(TextUtils.isEmpty(emailId.getText().toString()) ||
                         TextUtils.isEmpty(username.getText().toString()) ||
                         TextUtils.isEmpty(mobile.getText().toString()) ||
